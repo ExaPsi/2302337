@@ -1,0 +1,38 @@
+# BET isotherm data: N2 adsorption on mesoporous silica at 77 K
+# Sample: SBA-15 mesoporous silica
+# P0 = 101325 Pa (saturation pressure of N2 at 77 K)
+# Suitable for BET surface area analysis (linear region: 0.05 < P/P0 < 0.35)
+#
+# Columns:
+#   relative_pressure: P/P0 (dimensionless)
+#   V_ads_cm3_STP_g: Volume adsorbed in cm3(STP)/g
+#
+relative_pressure,V_ads_cm3_STP_g
+0.01,42.1
+0.02,55.3
+0.03,63.8
+0.05,78.2
+0.07,88.5
+0.10,101.3
+0.12,108.7
+0.15,118.4
+0.18,126.9
+0.20,132.5
+0.22,137.8
+0.25,145.2
+0.28,152.1
+0.30,156.8
+0.33,163.4
+0.35,168.2
+0.40,181.5
+0.45,196.3
+0.50,215.8
+0.55,242.1
+0.60,278.4
+0.65,325.6
+0.70,392.1
+0.75,478.3
+0.80,598.2
+0.85,762.4
+0.90,1012.5
+0.95,1523.8

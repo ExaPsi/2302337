@@ -1,0 +1,16 @@
+# Maintenance script (not for students)
+sync.sh
+
+# Solutions — publish when ready (remove this line to release)
+solutions/
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

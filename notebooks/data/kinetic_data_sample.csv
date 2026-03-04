@@ -1,0 +1,41 @@
+# Sample kinetic data for Surface Phenomena & Catalysis course
+# This file demonstrates the expected format for kinetic data analysis
+#
+# Experiment: CO oxidation over Pt/Al2O3 catalyst
+# Conditions: P_total = 1 atm, CO:O2 = 1:10, balance N2
+# Date: 2024-01-15
+# Reference: Adapted from literature values for teaching purposes
+#
+# Columns:
+#   temperature_K: Reaction temperature in Kelvin
+#   P_CO_Pa: Partial pressure of CO in Pascals
+#   P_O2_Pa: Partial pressure of O2 in Pascals
+#   rate_mol_m2_s: Reaction rate in mol/(m^2*s)
+#   rate_uncertainty: Standard deviation of rate measurement
+#
+temperature_K,P_CO_Pa,P_O2_Pa,rate_mol_m2_s,rate_uncertainty
+400,100,1000,1.23e-06,1.2e-07
+400,200,1000,2.15e-06,2.0e-07
+400,500,1000,3.89e-06,3.5e-07
+400,1000,1000,5.12e-06,4.8e-07
+400,2000,1000,5.98e-06,5.5e-07
+425,100,1000,3.45e-06,3.2e-07
+425,200,1000,6.01e-06,5.5e-07
+425,500,1000,1.05e-05,9.5e-07
+425,1000,1000,1.38e-05,1.2e-06
+425,2000,1000,1.61e-05,1.5e-06
+450,100,1000,8.92e-06,8.0e-07
+450,200,1000,1.55e-05,1.4e-06
+450,500,1000,2.71e-05,2.4e-06
+450,1000,1000,3.56e-05,3.2e-06
+450,2000,1000,4.16e-05,3.8e-06
+475,100,1000,2.15e-05,1.9e-06
+475,200,1000,3.74e-05,3.4e-06
+475,500,1000,6.52e-05,5.9e-06
+475,1000,1000,8.56e-05,7.7e-06
+475,2000,1000,9.99e-05,9.0e-06
+500,100,1000,4.87e-05,4.4e-06
+500,200,1000,8.46e-05,7.6e-06
+500,500,1000,1.47e-04,1.3e-05
+500,1000,1000,1.93e-04,1.7e-05
+500,2000,1000,2.26e-04,2.0e-05

@@ -1,0 +1,28 @@
+# Synthetic data: Suzuki coupling of bromobenzene with phenylboronic acid
+# Pd(OAc)2/SPhos catalyst at three different loadings
+# Solvent: THF/H2O, T = 80 degC, Base: K2CO3
+#
+# Columns:
+#   time_h: Reaction time in hours
+#   conversion_0p1: Fractional conversion at 0.1 mol% Pd loading
+#   conversion_1p0: Fractional conversion at 1.0 mol% Pd loading
+#   conversion_5p0: Fractional conversion at 5.0 mol% Pd loading
+#
+time_h,conversion_0p1,conversion_1p0,conversion_5p0
+0.0,0.000,0.000,0.000
+0.25,0.008,0.052,0.198
+0.50,0.019,0.112,0.362
+0.75,0.033,0.175,0.497
+1.00,0.050,0.241,0.604
+1.50,0.091,0.368,0.752
+2.00,0.138,0.478,0.847
+2.50,0.189,0.570,0.905
+3.00,0.244,0.645,0.938
+3.50,0.300,0.706,0.957
+4.00,0.356,0.754,0.969
+5.00,0.461,0.823,0.982
+6.00,0.549,0.868,0.989
+7.00,0.622,0.899,0.993
+8.00,0.682,0.921,0.995
+10.00,0.772,0.948,0.998
+12.00,0.833,0.964,0.999

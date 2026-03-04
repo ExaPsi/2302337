@@ -1,0 +1,29 @@
+# Sample adsorption isotherm data
+# Experiment: N2 adsorption on activated carbon at 77 K
+# Suitable for Langmuir and BET isotherm fitting (NB1)
+#
+# Columns:
+#   pressure_Pa: Equilibrium pressure in Pascals
+#   relative_pressure: P/P0 where P0 = 101325 Pa at 77 K
+#   amount_adsorbed_mol_kg: Amount adsorbed in mol/kg adsorbent
+#   adsorption_uncertainty: Measurement uncertainty in mol/kg
+#
+pressure_Pa,relative_pressure,amount_adsorbed_mol_kg,adsorption_uncertainty
+101.3,0.001,0.892,0.045
+506.6,0.005,2.156,0.108
+1013.3,0.010,3.012,0.151
+2533.1,0.025,4.234,0.212
+5066.3,0.050,5.456,0.273
+10132.5,0.100,6.892,0.345
+15198.8,0.150,7.654,0.383
+20265.0,0.200,8.234,0.412
+25331.3,0.250,8.712,0.436
+30397.5,0.300,9.123,0.456
+35463.8,0.350,9.489,0.474
+40530.0,0.400,9.823,0.491
+50662.5,0.500,10.423,0.521
+60795.0,0.600,11.012,0.551
+70927.5,0.700,11.623,0.581
+81060.0,0.800,12.345,0.617
+91192.5,0.900,13.456,0.673
+96258.8,0.950,14.567,0.728

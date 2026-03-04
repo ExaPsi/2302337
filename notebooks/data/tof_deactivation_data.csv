@@ -1,0 +1,30 @@
+# Synthetic data: TOF decay due to catalyst deactivation
+# System: Pd/SPhos catalyst for Suzuki coupling
+# True parameters: TOF0 = 500 h^-1, kd = 0.15 h^-1
+# Gaussian noise (sigma = 15 h^-1) added to simulate experimental scatter
+#
+# Columns:
+#   time_h: Reaction time in hours
+#   tof_per_hour: Measured turnover frequency in h^-1
+#
+time_h,tof_per_hour
+0.5,478.2
+1.0,441.8
+1.5,398.5
+2.0,382.1
+2.5,349.6
+3.0,312.4
+3.5,300.7
+4.0,271.3
+4.5,252.9
+5.0,228.1
+6.0,202.4
+7.0,176.8
+8.0,145.2
+9.0,132.7
+10.0,111.9
+12.0,78.3
+14.0,60.1
+16.0,44.8
+18.0,31.2
+20.0,24.6
