@@ -21,12 +21,24 @@ Department of Chemistry, Faculty of Science, Chulalongkorn University
 ### Installation
 
 ```bash
-# Option 1: pip
-pip install numpy scipy matplotlib pandas jupyterlab
+# Create a virtual environment (recommended)
+python -m venv .venv
 
-# Option 2: conda
-conda install numpy scipy matplotlib pandas jupyterlab
+# Activate the virtual environment
+# macOS / Linux:
+source .venv/bin/activate
+# Windows (PowerShell):
+.venv\Scripts\Activate.ps1
+# Windows (Command Prompt):
+.venv\Scripts\activate.bat
+
+# Install packages
+pip install numpy scipy matplotlib pandas jupyterlab
 ```
+
+> **Windows note:** If you see `"jupyter" is not recognized`, make sure you have
+> activated the virtual environment first. The `jupyter` command is only available
+> inside the environment where it was installed.
 
 ### Running the Notebooks
 
@@ -36,6 +48,9 @@ jupyter lab
 ```
 
 Open any `NB*.ipynb` file and run cells sequentially (Shift+Enter).
+
+> **Alternative (VS Code):** Open any `.ipynb` file directly in VS Code. Select the
+> `.venv` Python interpreter via the kernel picker in the top-right corner.
 
 ---
 
