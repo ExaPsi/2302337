@@ -2,7 +2,7 @@
 # This file demonstrates the expected format for kinetic data analysis
 #
 # Experiment: CO oxidation over Pt/Al2O3 catalyst
-# Conditions: P_total = 1 atm, CO:O2 = 1:10, balance N2
+# Conditions: P_O2 fixed at 1000 Pa; P_CO varied 100-2000 Pa (CO:O2 = 1:10 at base)
 # Date: 2024-01-15
 # Reference: Adapted from literature values for teaching purposes
 #
